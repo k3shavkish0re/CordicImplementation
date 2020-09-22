@@ -19,6 +19,7 @@ angl[7] = 0.45;
 float sigma = 0.61;
 
 float theta , current_theta;     //we need to calculate cos(theta) and sin(theta)
+cout<<"Enter theta in degrees : ";
 cin>>theta;
 current_theta = 0;
 float cos_val, sin_val;         
@@ -42,7 +43,8 @@ for(int i=0;i<9;i++){
 cos_val = X[8]*sigma;
 sin_val = Y[8]*sigma;
 
-cout<<cos_val<<endl;
-cout<<sin_val;
-  return 0;
+cout<<"cos(theta)="<<cos_val<<endl;
+cout<<"sin(theta)="<<sin_val;
+
+return 0;
 }
